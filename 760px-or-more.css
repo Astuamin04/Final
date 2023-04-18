@@ -1,0 +1,48 @@
+@media screen and(min-width: 760px) {
+
+    /* Navigation menu */
+    #main-nav ul{
+        justify-content: flex-end;
+    }
+
+    /*header*/
+
+    #main-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em;
+    }
+
+    #main-header h1{
+        font-size: 3em;
+    }
+
+    #main-header h2{
+        font-size: 1.5em;
+
+    }
+
+    /*Main content */
+    #main-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 2em;
+    }
+
+    main{
+        max-width: 500px;
+
+    }
+
+    aside{
+        margin-left: 2em;
+        flex-basis: 25%;
+    }
+
+
+
+}
+    

@@ -1,0 +1,26 @@
+@media screen and (min-width: auto) {
+    /* Navigation menu */
+    #main-nav ul{
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+    
+    /* Header */
+    #main-nav ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    /* Main Content */
+    #main-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main{
+        max-width: 500px;
+    }
+}

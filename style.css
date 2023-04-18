@@ -1,0 +1,165 @@
+@import url(./reset.css);
+
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+}
+
+/* NAVIGATION */
+#pic1{
+    height: 200px;
+    width: 205px;
+    float: left;
+   
+}
+#pic2{
+    height: 200px;
+    width: 205px;
+   float: right;
+}
+#main-nav{
+    background-color:rgb(30, 172, 224);
+    color: white;
+    padding: 1em;
+ }
+ nav ul{
+    display: flex;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-start: 2;
+    font-size: 2em;
+    justify-content: center;
+    gap: 6em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+ }
+
+ nav li {
+    display: inline-block;
+    margin-block-end: 1em;
+    align-items: center;
+    font-size: large;
+    margin: 12px;
+    padding: 14px;
+ }
+ nav a{
+    color:white;
+    text-decoration: 0.5em;
+   
+ }
+
+
+ nav a:hover{
+    background-color: grey;
+    color: white;
+ }
+
+
+/* HEADER */
+header{
+    background-image: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
+    text-align: center;
+    padding: 4em;
+    color: aliceblue;
+
+}   
+header h1{
+    font-size: 3em;
+    margin-bottom: 0.5em;
+
+}
+
+#box {
+    color: aliceblue;
+    background-color: grey;
+    border-radius: 6px;
+    margin: 5px;
+    padding: 15px;
+    margin-bottom: 45px;
+}
+header h2{
+    font-size: 2em;
+    margin-top: 0;
+
+}
+/* MAIN CONTENT */
+#main-content{
+    max-width: 1280px !important;
+    margin: 0 auto !important;
+    display: flex;
+    margin-bottom: 0.5em;
+    min-width: 1460px;
+    background-color: #f5f5f5;
+}
+/* MAIN */
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    order: 2;
+    width: 70%;
+    margin-left: 2%;
+}
+figure-one{
+    float: left;
+}
+figure-two{
+    float: right    ;
+}
+main cite{
+    display: block;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+
+/* ASIDE */
+aside{
+    background-color: aliceblue;
+    padding: 1em;
+    order: 1;
+    width: 30%;
+}
+#bg{
+    background-color: gray;
+    padding: 0.5em;
+}
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  aside li {
+    margin-bottom: 1rem;
+  }
+  
+  aside li strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+
+/* FOOTER */
+footer{
+    background-image: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
+    color: white;
+    padding: 1em;
+    float: center;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+    text-decoration: none;
+}
+
+footer a {
+    color: yellow;
+    text-decoration: underline;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
